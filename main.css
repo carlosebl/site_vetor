@@ -1,0 +1,58 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-image: url(./img/background2.png);
+}
+
+header img {
+    max-width: 200px;
+}
+
+header .nav-link,
+header .nav-link:hover {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.nav-item i {
+    color: #fff;
+}
+
+#sobre h1 {
+    font-weight: bold;
+}
+
+#sobre p {
+    font-size: 20px;
+}
+
+.btn {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+#sobre img {
+    max-height: 428px
+}
+
+footer img {
+    max-width: 160px;
+}
+
+footer .nav-link,
+footer .nav-link:hover {
+    color: #fff;
+    font-size: 16px;
+}
+
+#rodape-fixo {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
