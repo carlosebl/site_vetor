@@ -78,6 +78,10 @@ footer .nav-link:hover {
         max-width: 100%;
     }
 
+    .img-thumbnail {
+        width: 100%;
+    }
+
     #rodape-fixo {
         position: relative;
         bottom: 0;
