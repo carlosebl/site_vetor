@@ -67,14 +67,32 @@ footer .nav-link:hover {
 
 @media (max-width: 767px) {
     header img {
-        max-width: 120px;
+        max-width: 160px;
     }
 
     .dropdown {
         display: block;
     }
 
-    #sobre img {
-        max-width: 90%;
+    #logo-preto img {
+        max-width: 100%;
+    }
+
+    #rodape-fixo {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1023px) {
+    #logo-preto img {
+        max-width: 100%;
+    }
+
+    #rodape-fixo {
+        position: relative;
+        bottom: 0;
+        width: 100%;
     }
 }
